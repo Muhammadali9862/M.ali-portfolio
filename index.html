@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Ali Touheed — Senior Android Developer</title>
+  <meta name="description" content="Senior Android Developer with 4+ years of experience. Kotlin, Java, Jetpack Compose, MVVM, Clean Architecture, Firebase. 5+ live apps on Google Play Store." />
+  <meta name="author" content="Muhammad Ali Touheed" />
+  <meta name="keywords" content="Android Developer, Senior Android Developer, Kotlin, Java, Jetpack Compose, MVVM, Firebase, Sialkot, Pakistan, Mobile App Developer" />
+
+  <!-- Open Graph / social sharing.
+       NOTE: after deploying, replace the og:url and og:image domain below with your live URL. -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Muhammad Ali Touheed — Senior Android Developer" />
+  <meta property="og:description" content="4+ years building production Android apps in Kotlin & Java. 5+ live apps on Google Play Store serving the US, Saudi Arabia & Pakistan." />
+  <meta property="og:url" content="https://YOUR-SITE-URL.vercel.app/" />
+  <meta property="og:image" content="https://YOUR-SITE-URL.vercel.app/assets/profile.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Muhammad Ali Touheed — Senior Android Developer" />
+  <meta name="twitter:description" content="4+ years building production Android apps in Kotlin & Java. 5+ live apps on Google Play Store." />
+  <meta name="twitter:image" content="https://YOUR-SITE-URL.vercel.app/assets/profile.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== Animated background ===== -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-grid"></div>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar" id="navbar">
+    <nav class="container nav-inner">
+      <a href="#home" class="logo">
+        Muhammad<span class="logo-accent">.ali</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="assets/Muhammad_Ali_Touheed_Resume.pdf" download class="btn btn-primary btn-sm nav-resume">Resume</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker reveal"><span class="pulse-dot"></span> Open to Remote &amp; On-Site Roles, Freelance &amp; Long-Term Contracts</p>
+          <h1 class="reveal delay-1">Hi, I'm <span class="gradient-text">Muhammad Ali Touheed</span></h1>
+          <h2 class="hero-role reveal delay-2"><span id="rotatingRole">Senior Android Developer</span><span class="cursor">|</span></h2>
+          <p class="hero-summary reveal delay-3">
+            I design and ship production Android apps in <strong>Kotlin</strong> &amp; <strong>Java</strong> —
+            from architecture to Play Store. 5+ live apps serving users across the
+            US, Saudi Arabia, and Pakistan. Currently expanding into <strong>React Native</strong>.
+          </p>
+          <div class="hero-cta reveal delay-4">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="assets/Muhammad_Ali_Touheed_Resume.pdf" download class="btn btn-outline">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              Download CV
+            </a>
+          </div>
+          <div class="hero-socials reveal delay-5">
+            <a href="https://github.com/Muhammadali9862" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.26 5.66.41.36.78 1.06.78 2.14 0 1.54-.02 2.78-.02 3.16 0 .31.21.67.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-ali9862" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-11h2.88v1.5h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.6v6.46z"/></svg>
+            </a>
+            <a href="mailto:mr.ali11300@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal-right">
+          <div class="photo-frame">
+            <div class="photo-ring"></div>
+            <picture>
+              <source srcset="assets/profile.webp" type="image/webp" />
+              <img src="assets/profile.png" alt="Muhammad Ali Touheed" class="hero-photo" />
+            </picture>
+            <div class="floating-chip chip-kotlin">Kotlin</div>
+            <div class="floating-chip chip-compose">Jetpack Compose</div>
+            <div class="floating-chip chip-firebase">Firebase</div>
+            <div class="floating-chip chip-android">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.46 11.46 0 0 0-8.94 0L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48A10.81 10.81 0 0 0 1 18h22a10.81 10.81 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>
+              Android
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-num" data-count="4" data-suffix="+">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="5" data-suffix="+">0</span>
+            <span class="stat-label">Apps on Play Store</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="4.5" data-suffix="+" data-decimal="1">0</span>
+            <span class="stat-label">Avg. Star Rating</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="3" data-suffix="">0</span>
+            <span class="stat-label">Countries Served</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">Professional <span class="gradient-text">Summary</span></h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Senior Android Developer with <strong>4+ years of experience</strong> designing and shipping
+              production Android applications in <strong>Kotlin</strong> and <strong>Java</strong>. Delivered
+              <strong>5+ live apps</strong> on Google Play Store, serving users across the US, Saudi Arabia,
+              and Pakistan.
+            </p>
+            <p>
+              Skilled in <strong>Jetpack Compose, MVVM, Clean Architecture, Firebase</strong>, and real-time
+              data systems. Strong track record of leading full app lifecycles — from architecture design to
+              Play Store deployment — within agile, cross-functional teams.
+            </p>
+            <ul class="about-points">
+              <li>Reduced code complexity by <strong>30%</strong> with MVVM + Clean Architecture, Coroutines &amp; Hilt DI</li>
+              <li>Cut order-sync latency by <strong>40%</strong> via Firebase Firestore &amp; FCM real-time systems</li>
+              <li>Improved delivery route accuracy by <strong>25%</strong> with Google Maps SDK &amp; Directions API</li>
+              <li>Integrated <strong>3 payment gateways</strong> with zero reported security incidents</li>
+            </ul>
+          </div>
+          <div class="about-cards reveal-right">
+            <div class="info-card">
+              <h3>🎓 Education</h3>
+              <p class="info-strong">BS Computer Science</p>
+              <p>University of Gujrat</p>
+              <p class="info-muted">2016 — 2020</p>
+              <div class="edu-divider"></div>
+              <p class="info-strong">Intermediate</p>
+              <p class="info-muted">2014 — 2016</p>
+            </div>
+            <div class="info-card">
+              <h3>🌐 Languages</h3>
+              <div class="lang-row"><span>English</span><span class="info-muted">Professional</span></div>
+              <div class="lang-row"><span>Urdu</span><span class="info-muted">Native</span></div>
+            </div>
+            <div class="info-card">
+              <h3>📍 Based in</h3>
+              <p class="info-strong">Sialkot, Pakistan</p>
+              <p class="info-muted">Remote-friendly worldwide</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Technical <span class="gradient-text">Skills</span></h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-head">
+              <span class="skill-icon">⚡</span>
+              <h3>Core Languages</h3>
+            </div>
+            <div class="chips">
+              <span class="chip chip-hot">Kotlin</span>
+              <span class="chip chip-hot">Java</span>
+            </div>
+          </div>
+          <div class="skill-card reveal delay-1">
+            <div class="skill-head">
+              <span class="skill-icon">🏗️</span>
+              <h3>Architecture &amp; UI</h3>
+            </div>
+            <div class="chips">
+              <span class="chip">Jetpack Compose</span>
+              <span class="chip">MVVM</span>
+              <span class="chip">Clean Architecture</span>
+              <span class="chip">LiveData</span>
+              <span class="chip">XML Layouts</span>
+              <span class="chip">Material Design</span>
+            </div>
+          </div>
+          <div class="skill-card reveal delay-2">
+            <div class="skill-head">
+              <span class="skill-icon">☁️</span>
+              <h3>Backend &amp; APIs</h3>
+            </div>
+            <div class="chips">
+              <span class="chip">Firebase</span>
+              <span class="chip">FCM</span>
+              <span class="chip">Retrofit</span>
+              <span class="chip">Coroutines</span>
+              <span class="chip">Google Maps SDK</span>
+              <span class="chip">REST APIs</span>
+              <span class="chip">OkHttp</span>
+            </div>
+          </div>
+          <div class="skill-card reveal delay-3">
+            <div class="skill-head">
+              <span class="skill-icon">🛠️</span>
+              <h3>Data &amp; Tools</h3>
+            </div>
+            <div class="chips">
+              <span class="chip">Room DB</span>
+              <span class="chip">Git</span>
+              <span class="chip">ML Kit</span>
+              <span class="chip">Payment APIs</span>
+              <span class="chip">Hilt DI</span>
+              <span class="chip">Android Studio</span>
+              <span class="chip">Play Store</span>
+            </div>
+          </div>
+          <div class="skill-card reveal delay-4">
+            <div class="skill-head">
+              <span class="skill-icon">🚀</span>
+              <h3>Cross-Platform <small>(learning)</small></h3>
+            </div>
+            <div class="chips">
+              <span class="chip chip-dim">React Native</span>
+              <span class="chip chip-dim">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-card skill-card-highlight reveal delay-5">
+            <div class="skill-head">
+              <span class="skill-icon">💡</span>
+              <h3>What I bring</h3>
+            </div>
+            <p class="skill-note">
+              Full app lifecycle ownership — architecture, real-time data, payments,
+              maps &amp; tracking, CI-friendly Git workflows, and Play Store releases.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ATS-Friendly Skills ===== -->
+    <section class="section" id="ats-skills">
+      <div class="container">
+        <div class="ats-head">
+          <h2 class="section-title reveal">Clear Skill Groups for <span class="gradient-text">Recruiters &amp; Clients</span></h2>
+          <p class="ats-sub reveal">Separated by Mobile, Architecture and Backend for better scanning.</p>
+        </div>
+        <div class="ats-grid">
+
+          <div class="ats-card reveal">
+            <h3>Mobile Development</h3>
+            <div class="ats-row">
+              <div class="ats-label"><span>Kotlin / Java Android</span><span>95%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 95%"></div></div>
+            </div>
+            <div class="ats-row">
+              <div class="ats-label"><span>Jetpack Compose / XML</span><span>90%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 90%"></div></div>
+            </div>
+            <div class="ats-row">
+              <div class="ats-label"><span>React Native <small>(Beginner)</small></span><span>45%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 45%"></div></div>
+            </div>
+          </div>
+
+          <div class="ats-card reveal delay-1">
+            <h3>Architecture &amp; Platform</h3>
+            <div class="ats-row">
+              <div class="ats-label"><span>MVVM / Clean Architecture</span><span>94%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 94%"></div></div>
+            </div>
+            <div class="ats-row">
+              <div class="ats-label"><span>Firebase / FCM / Auth</span><span>90%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 90%"></div></div>
+            </div>
+            <div class="ats-row">
+              <div class="ats-label"><span>Hilt DI / Coroutines</span><span>88%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 88%"></div></div>
+            </div>
+          </div>
+
+          <div class="ats-card reveal delay-2">
+            <h3>Backend &amp; Data</h3>
+            <div class="ats-row">
+              <div class="ats-label"><span>REST APIs / Retrofit</span><span>90%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 90%"></div></div>
+            </div>
+            <div class="ats-row">
+              <div class="ats-label"><span>Google Maps SDK</span><span>88%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 88%"></div></div>
+            </div>
+            <div class="ats-row">
+              <div class="ats-label"><span>Room DB / SQLite</span><span>86%</span></div>
+              <div class="ats-bar"><div class="ats-fill" style="--w: 86%"></div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">Work <span class="gradient-text">Experience</span></h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="badge badge-live">2021 — Present</span>
+              </div>
+              <h3>Senior Android Developer</h3>
+              <p class="timeline-company">Astapor Technologies · Sialkot, Pakistan</p>
+              <ul class="timeline-points">
+                <li>Developed and launched <strong>5+ production Android apps</strong> on Google Play Store, achieving <strong>4.5+ star ratings</strong> and active user bases across the US and Saudi Arabia.</li>
+                <li>Reduced code complexity by <strong>30%</strong> by architecting apps with MVVM, Clean Architecture, Kotlin Coroutines, and Hilt dependency injection — improving team maintainability and onboarding speed.</li>
+                <li>Decreased order-sync latency by <strong>40%</strong> through Firebase Firestore and FCM integration, enabling real-time order tracking and push notifications across multi-role user ecosystems.</li>
+                <li>Improved delivery route accuracy by <strong>25%</strong> using Google Maps SDK and Directions API for live driver tracking and route optimization in logistics applications.</li>
+                <li>Accelerated code review turnaround by <strong>40%</strong> by establishing Git branching strategies and structured review processes across 5+ projects.</li>
+                <li>Integrated <strong>3 third-party payment gateways</strong>, handling secure transaction flows with <strong>zero reported security incidents</strong>.</li>
+              </ul>
+              <div class="chips">
+                <span class="chip">Kotlin</span>
+                <span class="chip">Java</span>
+                <span class="chip">Jetpack Compose</span>
+                <span class="chip">Firebase</span>
+                <span class="chip">Google Maps SDK</span>
+                <span class="chip">Hilt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Key <span class="gradient-text">Projects</span></h2>
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-emoji">🚖</span>
+              <span class="badge badge-live">● Live on Play Store</span>
+            </div>
+            <h3>Big Transporter</h3>
+            <p class="project-tag">Taxi &amp; Logistics · Chicago, USA &amp; Saudi Arabia</p>
+            <p class="project-desc">
+              Taxi and logistics platform serving 2 international markets. Diagnosed and resolved
+              10+ critical performance bottlenecks, <strong>reducing crash rate by 35%</strong>. Implemented
+              real-time driver tracking with Google Maps SDK, <strong>cutting ETA errors by 20%</strong>.
+            </p>
+            <div class="chips">
+              <span class="chip">Kotlin</span>
+              <span class="chip">Google Maps SDK</span>
+              <span class="chip">Firebase</span>
+              <span class="chip">Retrofit</span>
+              <span class="chip">MVVM</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-top">
+              <span class="project-emoji">🍔</span>
+              <a class="badge badge-live badge-link" href="https://play.google.com/store/apps/details?id=cygnus.customerapp&amp;hl=en" target="_blank" rel="noopener">● Live on Play Store ↗</a>
+            </div>
+            <h3>Cygnus Restaurant App</h3>
+            <p class="project-tag">Food Ordering Platform · 5,000+ downloads</p>
+            <p class="project-desc">
+              Full-cycle development of an online food ordering app with cart management, promo
+              codes, tip handling, and live order tracking. <strong>Built from scratch in 3 months</strong>
+              with a cross-functional team of 4.
+            </p>
+            <div class="chips">
+              <span class="chip">Kotlin</span>
+              <span class="chip">Jetpack Compose</span>
+              <span class="chip">Room DB</span>
+              <span class="chip">Payment Gateway</span>
+              <span class="chip">Firebase FCM</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-2">
+            <div class="project-top">
+              <span class="project-emoji">📦</span>
+              <a class="badge badge-live badge-link" href="https://play.google.com/store/apps/details?id=com.omda.customer" target="_blank" rel="noopener">● Live on Play Store ↗</a>
+            </div>
+            <h3>Omda — Customer, Driver &amp; Retailer</h3>
+            <p class="project-tag">Multi-Role Ecosystem · 3 Separate Apps</p>
+            <p class="project-desc">
+              3-app ecosystem with a shared Firebase backend supporting <strong>1,000+ concurrent users</strong>.
+              Real-time order management and live tracking across all roles; state synchronization with
+              Coroutines &amp; LiveData <strong>reduced data conflicts by 50%</strong>.
+            </p>
+            <div class="chips">
+              <span class="chip">Kotlin</span>
+              <span class="chip">Firestore</span>
+              <span class="chip">FCM</span>
+              <span class="chip">Google Maps</span>
+              <span class="chip">Coroutines</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-3">
+            <div class="project-top">
+              <span class="project-emoji">🏪</span>
+              <a class="badge badge-live badge-link" href="https://play.google.com/store/apps/details?id=cygnus.merchantapp&amp;hl=en" target="_blank" rel="noopener">● Live on Play Store ↗</a>
+            </div>
+            <h3>Cygnus Merchant App</h3>
+            <p class="project-tag">Restaurant Order Management · Merchant Side</p>
+            <p class="project-desc">
+              Merchant-side companion to the Cygnus food ordering platform. Lets restaurant
+              owners <strong>receive and manage incoming orders in real time</strong>, update menus and
+              item availability, and track order status from acceptance to delivery — powered
+              by Firebase and FCM push notifications.
+            </p>
+            <div class="chips">
+              <span class="chip">Kotlin</span>
+              <span class="chip">Firebase</span>
+              <span class="chip">FCM</span>
+              <span class="chip">MVVM</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-emoji">🐾</span>
+              <span class="badge badge-internal">● Android · Pre-Launch</span>
+            </div>
+            <h3>PetX — Pet Telemedicine</h3>
+            <p class="project-tag">24/7 Vet Consultations · Pet-Owner App</p>
+            <p class="project-desc">
+              Android build of PetX — a telemedicine platform connecting pet owners with licensed
+              veterinarians for <strong>24/7 video, audio, and chat consultations</strong>. Pet profiles,
+              in-app pharmacy, prescriptions, and consultation recordings.
+              <a class="inline-link" href="https://apps.apple.com/us/app/petx/id1525878027" target="_blank" rel="noopener">iOS version live on the App Store ↗</a>
+            </p>
+            <div class="chips">
+              <span class="chip">Kotlin</span>
+              <span class="chip">Firebase</span>
+              <span class="chip">FCM</span>
+              <span class="chip">Video Calls</span>
+              <span class="chip">MVVM</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-top">
+              <span class="project-emoji">🩺</span>
+              <span class="badge badge-internal">● Android · Pre-Launch</span>
+            </div>
+            <h3>VetX — Veterinarian App</h3>
+            <p class="project-tag">Vet-Side Companion to PetX</p>
+            <p class="project-desc">
+              Android build of VetX — lets licensed veterinarians run <strong>remote consultations</strong>,
+              issue prescriptions from an in-app pharmacy, track earnings, and build a personal
+              client base with consultation recording and transcription.
+              <a class="inline-link" href="https://apps.apple.com/us/app/vetx/id1525878822" target="_blank" rel="noopener">iOS version live on the App Store ↗</a>
+            </p>
+            <div class="chips">
+              <span class="chip">Kotlin</span>
+              <span class="chip">Firebase</span>
+              <span class="chip">Retrofit</span>
+              <span class="chip">Coroutines</span>
+              <span class="chip">MVVM</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-2">
+            <div class="project-top">
+              <span class="project-emoji">🖥️</span>
+              <span class="badge badge-internal">● Internal Deployment</span>
+            </div>
+            <h3>Kiosk Self-Ordering System</h3>
+            <p class="project-tag">Restaurant Kiosk Application</p>
+            <p class="project-desc">
+              Tablet-based self-service kiosk supporting 3 user roles, <strong>cutting average order
+              processing time by 45%</strong> through real-time order routing to the kitchen and Firebase
+              integration for live menu updates.
+            </p>
+            <div class="chips">
+              <span class="chip">Kotlin</span>
+              <span class="chip">Firebase</span>
+              <span class="chip">Room DB</span>
+              <span class="chip">MVVM</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <h2 class="section-title reveal">What I <span class="gradient-text">Offer</span></h2>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <span class="service-icon">📱</span>
+            <h3>Android App Development</h3>
+            <p>End-to-end native apps in Kotlin &amp; Java — from idea and architecture to a polished, production-ready app.</p>
+          </div>
+          <div class="service-card reveal delay-1">
+            <span class="service-icon">🏛️</span>
+            <h3>Architecture &amp; Modernization</h3>
+            <p>MVVM / Clean Architecture refactors, Hilt DI, Jetpack Compose migration, and legacy codebase revamps.</p>
+          </div>
+          <div class="service-card reveal delay-2">
+            <span class="service-icon">🗺️</span>
+            <h3>Real-Time &amp; Location Features</h3>
+            <p>Live tracking with Google Maps SDK, Firebase real-time sync, push notifications, and multi-role ecosystems.</p>
+          </div>
+          <div class="service-card reveal delay-3">
+            <span class="service-icon">🚀</span>
+            <h3>Play Store Launch &amp; Support</h3>
+            <p>Release management, crash &amp; performance fixes, payment gateway integration, and ongoing maintenance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Let's Build Something <span class="gradient-text">Great</span></h2>
+        <p class="contact-lead reveal">
+          Have an Android project in mind, or a role I'd be a fit for?
+          My inbox is always open — I'll get back to you as soon as I can.
+        </p>
+        <div class="contact-grid">
+          <a class="contact-card reveal" href="mailto:mr.ali11300@gmail.com">
+            <span class="contact-icon">✉️</span>
+            <h3>Email</h3>
+            <p>mr.ali11300@gmail.com</p>
+          </a>
+          <a class="contact-card reveal delay-1" href="tel:+923354542793">
+            <span class="contact-icon">📱</span>
+            <h3>Phone / WhatsApp</h3>
+            <p>+92 335 454 2793</p>
+          </a>
+          <a class="contact-card reveal delay-2" href="https://github.com/Muhammadali9862" target="_blank" rel="noopener">
+            <span class="contact-icon">💻</span>
+            <h3>GitHub</h3>
+            <p>github.com/Muhammadali9862</p>
+          </a>
+          <a class="contact-card reveal delay-3" href="https://www.linkedin.com/in/muhammad-ali9862" target="_blank" rel="noopener">
+            <span class="contact-icon">🔗</span>
+            <h3>LinkedIn</h3>
+            <p>Muhammad Ali</p>
+          </a>
+        </div>
+        <form class="contact-form reveal" action="https://formsubmit.co/mr.ali11300@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New message from your portfolio!" />
+          <input type="hidden" name="_template" value="table" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cf-name">Your Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="cf-email">Your Email</label>
+              <input type="email" id="cf-email" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project or role..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Send Message 🚀</button>
+        </form>
+
+        <div class="contact-cta reveal">
+          <a href="mailto:mr.ali11300@gmail.com" class="btn btn-outline btn-lg">Or Email Directly</a>
+          <a href="assets/Muhammad_Ali_Touheed_Resume.pdf" download class="btn btn-outline btn-lg">Download Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Muhammad Ali Touheed · Senior Android Developer</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
